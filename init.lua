@@ -1,4 +1,4 @@
-local S, PS = core.get_translator("ice")
+local S = core.get_translator("ice")
 
 -- Ice Brick
 
