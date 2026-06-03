@@ -19,12 +19,12 @@ msgstr ""
 
 #: init.lua:6
 msgid "Ice Brick"
-msgstr "Ladrillo de Hielo"
+msgstr "Ladrillo de hielo"
 
 #: init.lua:32
 msgid "Ice Brick Wall"
-msgstr "Muro de Ladrillo de Hielo"
+msgstr "Pared/muro de ladrillo de hielo"
 
 #: init.lua:48
 msgid "Ice Door"
-msgstr "Puerta de Hielo"
+msgstr "Puerta de hielo"
