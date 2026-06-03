@@ -1,7 +1,7 @@
 
 -- Ice Brick
 
-minetest.register_node("ice:brick", {
+core.register_node("ice:brick", {
 	description = "Ice Brick",
 	tiles = {
 		"ice_brick_tb.png",
@@ -15,7 +15,7 @@ minetest.register_node("ice:brick", {
 	sounds = default.node_sound_ice_defaults(),
 })
 
-minetest.register_craft{
+core.register_craft{
 	output = "ice:brick",
 	recipe = {
 		{"default:ice", "default:ice"},
@@ -35,7 +35,7 @@ walls.register(
 )
 
 -- Fix groups (ice is not stone)
-minetest.override_item("ice:wall", {
+core.override_item("ice:wall", {
 	groups = {cracky = 3, cools_lava = 1, slippery = 3, wall = 1}
 })
 
