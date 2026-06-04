@@ -23,7 +23,7 @@ msgstr "Ladrillo de hielo"
 
 #: init.lua:32
 msgid "Ice Brick Wall"
-msgstr "Pared/muro de ladrillo de hielo"
+msgstr "Muro de ladrillo de hielo"
 
 #: init.lua:48
 msgid "Ice Door"
