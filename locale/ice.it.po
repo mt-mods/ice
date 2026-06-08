@@ -1,0 +1,30 @@
+# Italian translations for ice mod.
+# Copyright (C) 2026
+# This file is distributed under GPL-3.0.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-30 19:51-0500\n"
+"PO-Revision-Date: 2026-05-30 19:51-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: init.lua:6
+msgid "Ice Brick"
+msgstr "Mattonella di ghiaccio"
+
+#: init.lua:32
+msgid "Ice Brick Wall"
+msgstr "Muro di mattonella di ghiaccio"
+
+#: init.lua:48
+msgid "Ice Door"
+msgstr "Porta di ghiaccio"
