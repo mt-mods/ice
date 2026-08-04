@@ -1,8 +1,9 @@
+local S = core.get_translator("ice")
 
 -- Ice Brick
 
 core.register_node("ice:brick", {
-	description = "Ice Brick",
+	description = S("Ice Brick"),
 	tiles = {
 		"ice_brick_tb.png",
 		"ice_brick_tb.png",
@@ -28,7 +29,7 @@ core.register_craft{
 
 walls.register(
 	"ice:wall",
-	"Ice Brick Wall",
+	S("Ice Brick Wall"),
 	"ice_brick_sides.png",
 	"ice:brick",
 	default.node_sound_ice_defaults()
@@ -44,7 +45,7 @@ core.override_item("ice:wall", {
 
 doors.register("ice:door", {
 	tiles = {"ice_door.png"},
-	description = "Ice Door",
+	description = S("Ice Door"),
 	inventory_image = "ice_door_inv.png",
 	groups = {cracky = 3, cools_lava = 1, slippery = 3},
 	sounds = default.node_sound_ice_defaults(),

@@ -1,7 +1,8 @@
 unused_args = false
 
 globals = {
-    "core",
+    "minetest",
+		"core",
 }
 
 read_globals = {
